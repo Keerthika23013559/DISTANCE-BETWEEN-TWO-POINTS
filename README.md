@@ -14,11 +14,18 @@ store the result in a variable
 ### Step 5: 
 print the result in decimal format
 ### PROGRAM:
-  
-![Screenshot 2024-03-16 093935](https://github.com/Keerthika23013559/DISTANCE-BETWEEN-TWO-POINTS/assets/162658262/beec871e-bf98-4c15-848a-7e9d6cbcf687)
+  ```
+import math
+first_point = [4, 2]
+second_point = [10, 6]
+distance = math.sqrt((second_point[0] - first_point[0])**2 + (second_point[1] - first_point[1])**2)
+print(f"{distance:.2f}")
+```
+
 
 ### OUTPUT:
-![Screenshot 2024-03-16 093942](https://github.com/Keerthika23013559/DISTANCE-BETWEEN-TWO-POINTS/assets/162658262/8fa9d4d0-03da-4f9a-82b4-8d202f850ee3)
+
+![Screenshot 2024-04-09 134111](https://github.com/Keerthika23013559/DISTANCE-BETWEEN-TWO-POINTS/assets/162658262/7059645a-3922-4fff-9d3b-0853f3b6a5f2)
 
 
 ### RESULT:
